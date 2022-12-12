@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="./style.css" />
+   <link rel="icon" href="https://images-ext-1.discordapp.net/external/00gaAE8dqXwtxfHXOlIsOZuWpVJsQY80Ij8SIMbN9oI/https/cdn.discordapp.com/emojis/1032127628158709831.webp">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+   <title>yzz</title>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta property="og:title" content="glockyzz#0001" />
+   <meta property="og:description" content="studying" />
+   <meta property="og:image" content="https://images-ext-1.discordapp.net/external/00gaAE8dqXwtxfHXOlIsOZuWpVJsQY80Ij8SIMbN9oI/https/cdn.discordapp.com/emojis/1032127628158709831.webp" />
+   <meta name="theme-color" content="#8b00b6" />
+
+</head>
+
+<body class="main">
+   <div class="background"></div>
+   <div class="container">
+      <img class="avatar" src="https://images-ext-1.discordapp.net/external/wBIAan0T8TwhARv_3QyvO6WKOIpyMu4X0AXcTe9DT3o/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/599988978531172352/5a3de17913de55522c12874e06860a5e.png" />
+      <h1>Artur<img src="./img/verified.svg" class="verified"></img>
+      </h1>
+
+      <ul>
+        <li>
+            <a class="icon-href" href="https://github.com/luvonvz" target="_blank">
+               <img class="icon-img" src="./img/github.svg">
+               <span class="icon-text">Github</span>
+            </a>
+         </li>
+
+         <li>
+            <a class="icon-href" href="https://twitter.com/luvonvz" target="_blank">
+               <img class="icon-img" src="./img/twitter.svg">
+               <span class="icon-text">Twitter</span>
+            </a>
+         </li>
+
+         <li>
+            <a class="icon-href" href="https://instagram.com/luvonvz" target="_blank">
+               <img class="icon-img" src="./img/instagram.svg">
+               <span class="icon-text">Instagram</span></a>
+         </li>  
+      </ul>
+   </div>
+</body>
+
+</html>
+<script>
+    function loaded() {
+       setInterval(loop, 400)
+    }
+ 
+    document.addEventListener ? document.addEventListener("DOMContentLoaded", function () {
+       loaded()
+    }) : document.attachEvent && document.attachEvent("onreadystatechange", function () {
+       loaded()
+    });
+ 
+    var x = 0;
+    var titleText = ["y", "yz", "yzz", "yz", "y", "\u200b"];
+ 
+    function loop() {
+       document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length]
+    }
+ </script>
